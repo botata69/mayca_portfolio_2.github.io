@@ -22,7 +22,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row;
-    width: 300vw; /* Adjusted width for five slides */
+    width: 400vw; /* Adjusted width for five slides */
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -34,29 +34,34 @@ body {
     background-position: center 89%; 
 }
 
-.hand-head h1 {
-    text-align: center;
+.lo-header {
     position: absolute;
-    top: 15%;
-    left: 17%;
+    top: 40%;
+    left: 34.4%;
     transform: translate(-50%, -50%);
-    font-family: Irish grover;
     color: white;
-    font-size: 5vw;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
     
 }
 
-.hand-text p {
+.lo-header h1 {
+    font-size: 5vw;
+    margin: 0px 0px;
     text-align: left;
-    position: absolute;
-    top: 40%;
-    left: 17%;
-    transform: translate(-50%, -50%);
-    font-family: Josefin-slab;
-    color: white;
-    font-size: 2.5vw;
-    width: 23%;
+    width: 70%;
 
+    
+}
+
+
+
+.intro-text {
+    color: white;
+    width: 22%;
+    font-size: 2.5vw;
+    font-family: Josefin-slab;
 }
 
 .two {
@@ -66,48 +71,31 @@ body {
     background-position: center 83%; 
 }
 
-.centered-content {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    gap: 20px; /* Space between the two divs */
+.nat-h1 h1 {
+    text-align: center;
+    position: absolute;
+    top: 17%;
+    left: 37.2%;
+    transform: translate(-50%, -50%);
+    font-family: Irish grover;
+    color: white;
+    font-size: 5vw;
+    
 }
 
-.centered-content h2 {
+.nat-p p {
+    text-align: left;
+    position: absolute;
+    top: 42%;
+    left: 37.2%;
+    transform: translate(-50%, -50%);
     font-family: Josefin-slab;
     color: white;
-    font-size: 1.5vw;
-    margin-left: -70%;
+    font-size: 2.5vw;
+    width: 17%;
+
 }
 
-.centered-content p {
-    font-family: Josefin-slab;
-    color: white;
-    font-size: 1.1vw;
-    margin-left: -70%;
-    width: 100%;
-}
-
-
-.left-side {
-    width: 300px; /* Adjust width as needed */
-}
-
-.right-side {
-    width: 375px; /* Adjust width as needed */
-}
-
-.videos {
-    display: flex;
-    margin-top: 13%;
-    margin-right: 40%;
-    margin-left: -20%;
-    gap: 30px; /* Space between the videos */
-}
-
-video {
-    width: 100%; /* Make videos responsive */
-}
 
 
 .three {
@@ -117,12 +105,110 @@ video {
     background-position: center 83%; 
 }
 
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side img {
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.right-side {
+    max-width: 500px; /* Adjust as needed */
+}
+
+.right-side h2 {
+    margin-left: -40%;
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: -45%;
+}
+
+.research-p {
+    margin-left: -40%;
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    width: 70%;
+}
+
+.four {
+    background-image: url(/images/Group-9_04.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+
+.centered-content2 {
+    display: flex;
+    justify-content: space-between; /* Even space between the items */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 20px; /* Adjust the gap between the divs if needed */
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+   
+}
+
+.left-side2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between the images */
+}
+
+
+.right-side2 {
+    max-width: 600px; /* Adjust as needed */
+    margin-left: 20%;
+}
+
+.right-side2 h2 {
+    margin: 0 0 10px;
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.right-side2 p {
+    margin: 0 0 20px;
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    margin-bottom: 45%;
+}
+
+.L-image1 {
+    max-width: 100%;
+    width: 100%; /* Adjust width as needed */
+    margin-left: 30%;
+
+}
+
+.L-image2 {
+    width: 150%; /* Adjust width as needed */
+    max-width: 150%; /* Adjust max-width as needed */
+    height: auto;
+    margin-top: -10%;
+}
+
 
 
 
 
 .next-project-btn {
-    margin-top: auto; /* Push the button to the bottom */
+    position: absolute;
+    margin-top: -1.5%; /* Push the button to the bottom */
+    
     align-self: flex-end; /* Align the button to the right */
     padding: 10px 20px; /* Add padding to the button */
     background-color: #555; /* Button background color */
@@ -131,7 +217,7 @@ video {
     font-family: Irish grover; /* Font family for the button text */
     font-size: 2vw; /* Adjust font size as needed */
     border-radius: 5px; /* Optional: Add border radius for rounded corners */
-    margin-left: 57%;
+    margin-left: 7%;
 }
 
 .next-project-btn:hover {
@@ -192,14 +278,39 @@ nav li a:hover {
     margin-left: 3%;
 }
 
+.pdf-doc p {
+    font-size: 1.5vw;
+}
+
 .pdf-doc {
     font-family: Josefin-slab;
     color: white;
     font-size: 1.5vw;
+    position: absolute;
+    margin-left: -3.3%;
    
 }
 
 .pdf-doc a{
     text-decoration: underline;
     color: white;
+}
+
+.pdf-doc2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -2%;
+   
+}
+
+.pdf-doc2 a{
+    text-decoration: underline;
+    color: white;
+}
+
+.pdf-doc2 p {
+    font-size: 1.5vw;
 }
