@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-image: url(/images/main-back.png); /* Double-check the path and filename */
+    background-image: url(../images/main-back.png); /* Double-check the path and filename */
     background-repeat: no-repeat;
     background-color: #2D261E;
 }
