@@ -1,0 +1,380 @@
+@font-face {
+    font-family: Irish grover;
+    src: url(IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin-slab;
+    src: url(JosefinSlab-SemiBold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   background-image: url(/back-img\ 2.png);
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 500vw; /* Adjusted width for five slides */
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.one {
+    background-image: url(/images/Group-9_01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.lo-header {
+    position: absolute;
+    top: 40%;
+    left: 21.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+}
+
+.lo-header h1 {
+    font-size: 5vw;
+    margin: 0px 0px;
+    text-align: left;
+}
+
+
+
+.intro-text {
+    color: white;
+    width: 22%;
+    font-size: 2.5vw;
+    font-family: Josefin-slab;
+}
+
+.two {
+    background-image: url(/images/Group-9_02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.nat-h1 h1 {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: Irish grover;
+    color: white;
+    font-size: 5vw;
+    
+}
+
+.nat-p p {
+    text-align: left;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 2.5vw;
+    width: 12%;
+
+}
+
+.three {
+    background-image: url(/images/Group-9_03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+.centered-content h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+    margin: 10px 160px;
+}
+
+.centered-content p {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+}
+
+.nat-left-side,
+.nat-right-side {
+    width: 50%; /* Each div takes up half of the container's width */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.nat-left-side p,
+.nat-right-side p {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the paragraph horizontally */
+}
+
+.nat-right-side p {
+    margin-left: 5%;
+}
+
+.nat-right-side h2 {
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.nat-left-side h2 {
+    margin-left: 40%;
+    margin-top: 10%;
+   
+}
+
+.nat-left-side p{
+    margin-left: 40%;
+   
+}
+
+.nat-left-side img,
+.nat-right-side img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+}
+
+.nat-left-side img {
+    width: 75%; /* Adjust the width as needed */
+    margin-left: 27%; /* Center the image horizontally */
+    margin-top: -9%;
+}
+
+.nat-right-side img{
+    margin-top: 15%;
+    width: 75%;
+}
+
+.four {
+    background-image: url(/images/Group-9_04.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content2 {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+.centered-content2 h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+  
+}
+
+.centered-content2 p {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+}
+
+.nat-left-side2,
+.nat-right-side2 {
+    width: 50%; /* Each div takes up half of the container's width */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.nat-left-side2 img,
+.nat-right-side2 img {
+  
+    display: block; /* Ensure the image is a block element */
+}
+
+.nat-left-side2 p,
+.nat-right-side2 p {
+    width: 36%; /* Adjust the width as needed */
+}
+
+.img-left-1 {
+    max-width: 100%;
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+.img-left-2 {
+    max-width: 100%;
+    width: 110%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.typography-title {
+    margin-left: -15%;
+    margin-top: 10%;
+}
+
+.typography-text {
+    margin: 10px auto; /* Adjust the margin as needed */
+    margin-left: -15%;
+}
+
+/* Specific styles for stylescape section */
+.stylescape-title {
+    margin-top: 20%;
+    margin-left: 25%;
+
+}
+
+.stylescape-text {
+    margin-left: 25%;
+}
+
+.five {
+    background-image: url(/images/Group-9_05.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content3 {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Make sure the container takes the full viewport height */
+}
+
+.centered-content3 h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+  
+}
+
+.next-project-btn {
+    margin-top: auto; /* Push the button to the bottom */
+    align-self: flex-end; /* Align the button to the right */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #555; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    font-family: Irish grover; /* Font family for the button text */
+    font-size: 2vw; /* Adjust font size as needed */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    margin-left: 57%;
+}
+
+.next-project-btn:hover {
+    background-color: #333; /* Button background color on hover */
+}
+
+.nat-left-side3,
+.nat-right-side3 {
+    width: 50%; /* Each div takes up half of the container's width */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.nat-left-side3 img {
+    max-width: 120%; /* Ensure the image doesn't exceed its container's width */
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: -15%;
+}
+
+/* Specific styles for mockup section */
+.mock-title {
+    margin-left: 15%;
+}
+
+.mock-text {
+    width: 40%; /* Adjust the width of the paragraph */
+    margin-left: 15%;
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    margin-bottom: 30%;
+}
+
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+    overscroll-behavior-y: contain; 
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+nav {
+    position: sticky;
+    background-image: url(/back-img\ 2.png);
+    margin: 0;
+    /* Background color of the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0px; /* Remove default margin */
+    text-align: left; /* Align the navigation links in the center */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 60px; /* Add space between list items */
+}
+
+nav li a {
+    color: #fff; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding around links */
+    font-size: 4.5vw;
+    font-family: Irish grover;
+    
+}
+
+nav li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.navigation {
+    margin-left: 3%;
+}
+
+.pdf-doc {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 15%;
+    margin-top: -20%;
+    margin-bottom: 15%;
+}
+
+.pdf-doc a{
+    text-decoration: underline;
+    color: white;
+}
