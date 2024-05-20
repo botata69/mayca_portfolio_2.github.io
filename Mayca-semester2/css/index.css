@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Irish grover;
+    src: url(IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin-slab;
+    src: url(JosefinSlab-SemiBold.ttf);
+}
+
+body {
+    background-image: url(/images/main-back.png); /* Double-check the path and filename */
+    background-repeat: no-repeat;
+    background-color: #2D261E;
+    background-size: 100% 53%;
+}
+
+
+.mushroom-img img {
+    max-width: 100%;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.roots-img img {
+    max-width: 100%;
+    margin-top: -30px;
+    position: relative;
+    z-index: 0;
+
+}
+
+
+.text-header {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighters;
+}
+
+.text-header h1 {
+    font-size: 10vw;
+    margin: 0px 0px;
+}
+
+.text-header h2 {
+    font-size: 5vw;
+    margin: 0px 0px;
+}
+
+.lo-header {
+    position: absolute;
+    top: 49%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighters;
+}
+
+.about-me-header {
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighters;
+}
+.about-me-header h1 {
+    font-size: 4.5vw;
+    margin: 0px 0px;
+    text-align: left;
+}
+
+.about-me-header p {
+    color: white;
+    width: 100%;
+    align-items: center;
+    font-size: 1.56vw;
+    font-family: Josefin-slab;
+}
+
+.lo-header h1 {
+    font-size: 5vw;
+    margin: 0px 0px;
+    text-align: left;
+}
+
+.grass-img img {
+    max-width: 100%;
+    margin-top: 28%;
+    position: relative;
+    z-index: 1;
+}
+
+.grass-img-2 img {
+    max-width: 100%;
+    margin-top: 40%;
+    position: relative;
+    z-index: 1;
+}
+
+.lo p {
+    position: absolute;
+    top: 112%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.lo2 p {
+    position: absolute;
+    top: 128%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 2.5vw;
+    width: 100%;
+}
+
+.lo3 p {
+    position: absolute;
+    top: 137%;
+    left: 111%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.lo4 p {
+    position: absolute;
+    top: 151.5%;
+    left: 112%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.lo5 p {
+    position: absolute;
+    top: 167%;
+    left: 112%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.learning-outcomst a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    background-image: url(/images/main-back.png);/* Background color of the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0px; /* Remove default margin */
+    text-align: left; /* Align the navigation links in the center */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 60px; /* Add space between list items */
+}
+
+nav li a {
+    color: #fff; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding around links */
+    font-size: 4.5vw;
+    font-family: Irish grover;
+    
+}
+
+nav li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.navigation {
+    margin-left: 3%;
+}
+
