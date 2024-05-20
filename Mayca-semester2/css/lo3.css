@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
    background-image: url("images\main-back.png")
+    background-color: #2D261E;
 }
 
 .slide {
