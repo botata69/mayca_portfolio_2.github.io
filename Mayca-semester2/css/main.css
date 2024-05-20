@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-image: url("/back-img\ 2.png"); /* Double-check the path and filename */
+    background-image: url(/images/main-back.png); /* Double-check the path and filename */
     background-repeat: no-repeat;
     background-color: #2D261E;
 }
@@ -261,7 +261,7 @@ body {
 }
 
 nav {
-    /* Background color of the navigation bar */
+    background-image: url(/images/main-back.png);/* Background color of the navigation bar */
 }
 
 nav ul {
