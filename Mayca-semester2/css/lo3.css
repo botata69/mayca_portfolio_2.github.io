@@ -62,7 +62,7 @@ body {
 }
 
 .two {
-    background-image: url(/images/Group-9_02.png);
+    background-image: url(../images/Group-9_02.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -94,7 +94,7 @@ body {
 }
 
 .three {
-    background-image: url(/images/Group-9_03.png);
+    background-image: url(../images/Group-9_03.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -168,7 +168,7 @@ body {
 }
 
 .four {
-    background-image: url(/images/Group-9_04.png);
+    background-image: url(../images/Group-9_04.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -246,7 +246,7 @@ body {
 }
 
 .five {
-    background-image: url(/images/Group-9_05.png);
+    background-image: url(../images/Group-9_05.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -332,7 +332,7 @@ body {
 
 nav {
     position: sticky;
-    background-image: url(/back-img\ 2.png);
+    background-image: url(../images/main-back.png);
     margin: 0;
     /* Background color of the navigation bar */
 }
