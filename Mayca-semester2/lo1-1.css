@@ -1,0 +1,296 @@
+@font-face {
+    font-family: Irish grover;
+    src: url(IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin-slab;
+    src: url(JosefinSlab-SemiBold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   background-image: url(/images/main-back.png);
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 300vw; /* Adjusted width for five slides */
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.one {
+    background-image: url(/images/grass-2_01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 89%; 
+}
+
+.hand-head h1 {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-family: Irish grover;
+    color: white;
+    font-size: 5vw;
+    
+}
+
+.hand-text p {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 2.5vw;
+    width: 23%;
+
+}
+
+.two {
+    background-image: url(/images/Group-9_02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    width: 75%; /* Adjust the width as needed */
+    max-width: 1200px; /* Max width for better layout control */
+    margin-left: 10%;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    margin: 0 20px; /* Add some space between the divs */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Optional: Add space between images and text */
+}
+
+h2 {
+    margin-top: 5%;
+    
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.centered-content h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.centered-content p {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    width: 70%;
+}
+
+.right-side img{
+    width: 90%;
+    margin-top: 5%;
+}
+
+.left-side h2, .left-side p {
+    margin-left: 13%;
+}
+
+
+.images {
+    display: flex;
+    gap: 20px; /* Space between images */
+}
+
+.images img {
+    flex: 1;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px; /* Optional: Add space between images and text */
+}
+
+.left-img-1 {
+    margin-top: 5%;
+    width: 25%;
+    height: 60%;
+}
+
+.left-img-2 {
+    width: 45%;
+    height: 100%;
+    margin-top: 17%;
+}
+
+
+
+
+.three {
+    background-image: url(/images/Group-9_03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.left-side2, .right-side2 {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.right-side2 img {
+    max-width: 100%;
+    width: 75%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 35%;
+
+}
+
+.centered-content2 h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.left-side2 h2 {
+    margin-top: 20%;
+}
+
+.centered-content2 p {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    width: 70%;
+}
+
+.centered-content2 h2, .centered-content2 p {
+    margin-left: 35%;
+}
+
+
+
+
+.next-project-btn {
+    margin-top: auto; /* Push the button to the bottom */
+    align-self: flex-end; /* Align the button to the right */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #555; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    font-family: Irish grover; /* Font family for the button text */
+    font-size: 2vw; /* Adjust font size as needed */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    margin-left: 57%;
+}
+
+.next-project-btn:hover {
+    background-color: #333; /* Button background color on hover */
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+    overscroll-behavior-y: contain; 
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+nav {
+    position: sticky;
+    background-image: url(/back-img\ 2.png);
+    margin: 0;
+    /* Background color of the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0px; /* Remove default margin */
+    text-align: left; /* Align the navigation links in the center */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 60px; /* Add space between list items */
+}
+
+nav li a {
+    color: #fff; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding around links */
+    font-size: 4.5vw;
+    font-family: Irish grover;
+    
+}
+
+nav li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.navigation {
+    margin-left: 3%;
+}
+
+.pdf-doc {
+    font-family: Josefin-slab;
+    color: white;
+    margin-top: 25%;
+    width: 100%;
+    
+}
+
+.pdf-doc p {
+    font-size: 1.5vw;
+    
+}
+
+.pdf-doc a{
+    text-decoration: underline;
+    color: white;
+    font-size: 1.5vw;
+    
+}
