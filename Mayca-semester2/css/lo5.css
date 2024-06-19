@@ -1,0 +1,301 @@
+@font-face {
+    font-family: Irish grover;
+    src: url(IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: Josefin-slab;
+    src: url(JosefinSlab-SemiBold.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   background-image: url(/images/main-back.png);
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw; /* Adjusted width for five slides */
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.one {
+    background-image: url(/images/Group-9_01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 89%; 
+}
+
+.lo-header {
+    position: absolute;
+    top: 40%;
+    left: 25.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0px;
+    font-family: Irish grover;
+    font-style: normal;
+    
+}
+
+.lo-header h1 {
+    font-size: 5vw;
+    margin: 0px 0px;
+    text-align: left;
+    width: 70%;
+
+    
+}
+
+
+
+.intro-text {
+    color: white;
+    width: 22%;
+    font-size: 2.5vw;
+    font-family: Josefin-slab;
+}
+
+.two {
+    background-image: url(/images/Group-9_02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.two h1 {
+    font-family: Irish grover;
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.two-content {
+    margin: 20px 40px;
+}
+
+.core-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* This ensures the divs stretch to the same height */
+    gap: 5px; /* Optional: adds some space between the divs */
+}
+
+.core-left, .core-right {
+    flex: 1; /* This makes both divs take up equal space */
+    padding: 0px; /* Optional: adds some padding inside the divs */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width and height */
+}
+
+.core-text-container p {
+    color: white;
+    font-family: Josefin-slab;
+    font-size: 1.6vw;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.first-word {
+    font-size: 1.5em; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+}
+
+
+
+.three {
+    background-image: url(/images/Group-9_03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.three-content {
+    margin: 20px 150px;
+    margin-left: 200px;
+}
+.three h1 {
+    font-family: Irish grover;
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.personalities-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* This ensures the divs stretch to the same height */
+    gap: 5px; /* Optional: adds some space between the divs */
+    margin-top: 70px;
+}
+
+.per-left, .per-right {
+    flex: 1; /* This makes both divs take up equal space */
+    padding: 0px; /* Optional: adds some padding inside the divs */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width and height */
+}
+
+.per-left img {
+    width: 40%;
+}
+
+.personalities-container p {
+    color: white;
+    font-family: Josefin-slab;
+    font-size: 2vw;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: -300px;
+}
+
+.per-right a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+.four {
+    background-image: url(/images/Group-9_04.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.four h1 {
+    font-family: Irish grover;
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.four-content {
+    margin: 20px 40px;
+}
+
+.job-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* This ensures the divs stretch to the same height */
+    gap: 5px; /* Optional: adds some space between the divs */
+}
+
+.job-left, .job-right {
+    flex: 1; /* This makes both divs take up equal space */
+    padding: 0px; /* Optional: adds some padding inside the divs */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width and height */
+}
+
+.job-text-container p {
+    color: white;
+    font-family: Josefin-slab;
+    font-size: 1.6vw;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.job-right img {
+    width: 85%;
+    margin-top: -50px;
+}
+
+
+
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+    overscroll-behavior-y: contain; 
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+nav {
+    position: sticky;
+    background-image: url(/back-img\ 2.png);
+    margin: 0;
+    /* Background color of the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0px; /* Remove default margin */
+    text-align: left; /* Align the navigation links in the center */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 60px; /* Add space between list items */
+}
+
+nav li a {
+    color: #fff; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding around links */
+    font-size: 4.5vw;
+    font-family: Irish grover;
+    
+}
+
+nav li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+.navigation {
+    margin-left: 3%;
+}
+
+.pdf-doc p {
+    font-size: 1.5vw;
+}
+
+.pdf-doc {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-left: -3.3%;
+   
+}
+
+.pdf-doc a{
+    text-decoration: underline;
+    color: white;
+}
+
+.pdf-doc2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -2%;
+   
+}
+
+.pdf-doc2 a{
+    text-decoration: underline;
+    color: white;
+}
+
+.pdf-doc2 p {
+    font-size: 1.5vw;
+}
