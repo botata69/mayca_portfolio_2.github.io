@@ -11,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-   background-image: url(/images/main-back.png);
+   background-image: url(../images/main-back.png);
 }
 
 .slide {
@@ -28,7 +28,7 @@ body {
 }
 
 .one {
-    background-image: url(/images/grass-2_01.png);
+    background-image: url(../images/grass-2_01.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 89%; 
@@ -60,7 +60,7 @@ body {
 }
 
 .two {
-    background-image: url(/images/Group-9_02.png);
+    background-image: url(../images/Group-9_02.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -152,7 +152,7 @@ img {
 
 
 .three {
-    background-image: url(/images/Group-9_03.png);
+    background-image: url(../images/Group-9_03.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -202,7 +202,7 @@ img {
 }
 
 .four {
-    background-image: url(/images/Group-9_04.png);
+    background-image: url(../images/Group-9_04.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
