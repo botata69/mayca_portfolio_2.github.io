@@ -133,12 +133,10 @@ p {
 .images img {
     flex: 1;
     display: block;
-}
-
-img {
     max-width: 40%;
     display: block;
     margin-bottom: 20px; /* Optional: Add space between images and text */
+}argin-bottom: 20px; /* Optional: Add space between images and text */
 }
 
 .left-img-1 {
