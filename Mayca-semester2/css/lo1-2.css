@@ -37,8 +37,8 @@ body {
 .hand-head h1 {
     text-align: center;
     position: absolute;
-    top: 15%;
-    left: 17%;
+    top: 10%;
+    left: 16.5%;
     transform: translate(-50%, -50%);
     font-family: Irish grover;
     color: white;
@@ -49,14 +49,178 @@ body {
 .hand-text p {
     text-align: left;
     position: absolute;
-    top: 40%;
-    left: 17%;
+    top: 37%;
+    left: 16.7%;
     transform: translate(-50%, -50%);
     font-family: Josefin-slab;
     color: white;
     font-size: 2.5vw;
-    width: 23%;
+    width: 27%;
 
+}
+
+.two {
+    background-image: url(/images/Group-9_02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    width: 75%; /* Adjust the width as needed */
+    max-width: 1200px; /* Max width for better layout control */
+    margin-left: 10%;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    margin: 0 20px; /* Add some space between the divs */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Optional: Add space between images and text */
+}
+
+h2 {
+    margin-top: 5%;
+    
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.centered-content h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.centered-content p {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    width: 70%;
+}
+
+.right-side img{
+    width: 90%;
+    margin-top: 5%;
+}
+
+.left-side h2, .left-side p {
+    margin-left: 13%;
+}
+
+
+
+
+.images img {
+   
+    width: 60%;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px; /* Optional: Add space between images and text */
+}
+
+.left-img-1 {
+    margin-top: 5%;
+    width: 25%;
+    height: 60%;
+}
+
+.left-img-2 {
+    width: 45%;
+    height: 100%;
+    margin-top: 17%;
+}
+
+
+
+
+.three {
+    background-image: url(/images/Group-9_03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 83%; 
+}
+
+.centered-content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.left-side2, .right-side2 {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.right-side2 img {
+    max-width: 100%;
+    width: 75%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 35%;
+
+}
+
+.centered-content2 h2 {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.left-side2 h2 {
+    margin-top: 20%;
+}
+
+.centered-content2 p {
+    font-family: Josefin-slab;
+    color: white;
+    font-size: 1.1vw;
+    width: 70%;
+}
+
+.centered-content2 h2, .centered-content2 p {
+    margin-left: 35%;
+}
+
+.right-side2 video {
+    width: 63%;
+    margin-left: 30%;
+}
+
+
+
+.more-info {
+    font-family: Josefin-slab;
+    color: white;
+    margin-top: 50px;
+}
+
+.more-info p {
+    font-size: 1.5vw;
+}
+
+.more-info a{
+    text-decoration: underline;
+    color: white;
+    font-size: 1.5vw;
 }
 
 .previus-project-btn {
@@ -76,70 +240,12 @@ body {
     background-color: #333; /* Button background color on hover */
 }
 
-.two {
-    background-image: url(/images/Group-9_02.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center 83%; 
-}
-
-.centered-content {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    gap: 20px; /* Space between the two divs */
-}
-
-.centered-content h2 {
-    font-family: Josefin-slab;
-    color: white;
-    font-size: 1.5vw;
-    margin-left: -70%;
-}
-
-.centered-content p {
-    font-family: Josefin-slab;
-    color: white;
-    font-size: 1.1vw;
-    margin-left: -70%;
-    width: 100%;
-}
-
-
-.left-side {
-    width: 300px; /* Adjust width as needed */
-}
-
-.right-side {
-    width: 375px; /* Adjust width as needed */
-}
-
-.videos {
-    display: flex;
-    margin-top: 13%;
-    margin-right: 40%;
-    margin-left: -20%;
-    gap: 30px; /* Space between the videos */
-}
-
-video {
-    width: 100%; /* Make videos responsive */
-}
-
-
-.three {
-    background-image: url(/images/Group-9_03.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center 83%; 
-}
 
 
 
 
 
 .next-project-btn {
-    position: relative;
     margin-top: auto; /* Push the button to the bottom */
     align-self: flex-end; /* Align the button to the right */
     padding: 10px 20px; /* Add padding to the button */
@@ -149,9 +255,7 @@ video {
     font-family: Irish grover; /* Font family for the button text */
     font-size: 2vw; /* Adjust font size as needed */
     border-radius: 5px; /* Optional: Add border radius for rounded corners */
-    left: 130%;
-    top: 20%;
-    width: 100%;
+    margin-left: 57%;
 }
 
 .next-project-btn:hover {

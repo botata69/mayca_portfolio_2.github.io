@@ -11,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-   background-image: url(../images/main-back.png);
+   background-image: url(/images/main-back.png);
 }
 
 .slide {
@@ -28,7 +28,7 @@ body {
 }
 
 .one {
-    background-image: url(../images/grass-2_01.png);
+    background-image: url(/images/grass-2_01.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 89%; 
@@ -60,7 +60,7 @@ body {
 }
 
 .two {
-    background-image: url(../images/Group-9_02.png);
+    background-image: url(/images/Group-9_02.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -152,7 +152,7 @@ img {
 
 
 .three {
-    background-image: url(../images/Group-9_03.png);
+    background-image: url(/images/Group-9_03.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -202,7 +202,7 @@ img {
 }
 
 .four {
-    background-image: url(../images/Group-9_04.png);
+    background-image: url(/images/Group-9_04.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 83%; 
@@ -267,7 +267,7 @@ img {
 .plan-right img{
     width: 100%;
     margin-top:30px;
-    margin-left: -50px;
+    margin-left: -110px;
 }
 
 .more-info {
@@ -297,20 +297,16 @@ img {
     position: relative;
     top: 65%;
     left: 5.5%;
-    
 }
 
 .previus-project-btn:hover {
     background-color: #333; /* Button background color on hover */
 }
 
-
-
-
-
-
 .next-project-btn {
-    margin-top: auto; /* Push the button to the bottom */
+    position: absolute;
+    margin-top: -1.5%; /* Push the button to the bottom */
+    
     align-self: flex-end; /* Align the button to the right */
     padding: 10px 20px; /* Add padding to the button */
     background-color: #555; /* Button background color */
@@ -319,12 +315,18 @@ img {
     font-family: Irish grover; /* Font family for the button text */
     font-size: 2vw; /* Adjust font size as needed */
     border-radius: 5px; /* Optional: Add border radius for rounded corners */
-    margin-left: 57%;
+    margin-left: 20%;
 }
 
 .next-project-btn:hover {
     background-color: #333; /* Button background color on hover */
 }
+
+
+
+
+
+
 
 .outer-wrapper {
     width: 100vh;
